@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+	position: absolute;
+}
+.box{
+	padding: 10px 0 0 10px;
+	float: left;
+}
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.pic img{
+	width: 168px;
+	height:auto;
+}
+
+.boxShadow{
+    box-shadow: 0 0 8px 0 #ccc;
+    opacity: 0.8;
+    background: #eee;
+}
+
+#showMain{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    text-align: center;
+}
+
+#showExit{
+    position: absolute;
+}
+
+#showImg{
+    margin: 10% 0;
+    background: #eee;
+    height: 50%;
+
+}
+
+
+#showExit{
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #eeeeee;
+    font-size: 80px;
+}
